@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+}
+.card {
+    background-color: #f8f8f8;
+}
+.video {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+a {
+    color: #a6a6a6;
+}
+a:hover {
+    color: #d3d3d3;
+}
+@media screen and (min-width: 768px) {
+    .card-text {
+        overflow-y: auto;
+        height: clamp(8rem, 1200px, 6rem);
+    }
+}
