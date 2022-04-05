@@ -1,6 +1,18 @@
 body {
     min-height: 100vh;
 }
+a {
+    color: #a6a6a6;
+}
+a:hover {
+    color: #d3d3d3;
+}
+
+#navbar-title {
+    cursor: pointer;
+    user-select: none;
+}
+
 .card {
     background-color: #f8f8f8;
 }
@@ -8,11 +20,23 @@ body {
     aspect-ratio: 16/9;
     width: 100%;
 }
-a {
-    color: #a6a6a6;
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    align-self: center;
 }
-a:hover {
-    color: #d3d3d3;
+
+
+.search-form {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+@media screen and (min-width: 992px) {
+    .search-form {
+        width: 20rem;
+        margin-top: 0;
+    }
 }
 @media screen and (min-width: 768px) {
     .card-text {
