@@ -1,54 +1,35 @@
-[
-  {
-    "type": "video",
-    "title": "Śnieg i góry",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis error expedita perferendis possimus quae quas quasi recusandae sed, temporibus veritatis?",
-    "src": "./assets/videos/placeholder.mp4"
-  },
-  {
-    "type": "video",
-    "title": "Coś w jakimś biurze robią",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus consequuntur dolorum labore libero molestiae, officiis sed totam. Consequatur error, exercitationem ipsa, iure non voluptatem voluptates voluptatum.",
-    "src": "./assets/videos/office-placeholder.mp4"
-  },
-  {
-    "type": "image",
-    "title": "Placehold image",
-    "src": "./assets/images/placehold-img1.jpg"
-  },
-  {
-    "type": "video",
-    "title": "Jakiś statek płynie",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officiis sed totam. Consequatur error, exercitationem ipsa, iure non voluptatem voluptates voluptatum.",
-    "src": "./assets/videos/ship-placeholder.mp4"
-  },
-  {
-    "type": "video",
-    "title": "Fnaf asmr",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis error expedita perferendis possimus quae quas quasi recusandae sed, temporibus veritatis?",
-    "src": "./assets/videos/fnaf-asmr-placeholder.mp4"
-  },
-  {
-    "type": "video",
-    "title": "Jakaś polska dżungla",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi illum maxime modi natus neque nihil sed sequi temporibus, unde voluptatem.",
-    "src": "./assets/videos/nature-sounds-placeholder.mp4"
-  },
-  {
-    "type": "video",
-    "title": "Hier nen euro",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus consequuntur dolorum labore libero molestiae, officiis sed totam. Consequatur error, exercitationem ipsa, iure non voluptatem voluptates voluptatum.",
-    "src": "./assets/videos/hier-nen-euro-placeholder.mp4"
-  },
-  {
-    "type": "image",
-    "title": "Placehold image",
-    "src": "./assets/images/placehold-img2.jpg"
-  },
-  {
-    "type": "video",
-    "title": "coś z jutuba",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officiis sed totam. Consequatur error, exercitationem ipsa, iure non voluptatem voluptates voluptatum.",
-    "src": "https://www.youtube.com/embed/tgbNymZ7vqY"
-  }
-]
+ [
+     {
+         "type": "video",
+         "title": "Lorem ipsum video",
+         "description": "Lorem ipsum dolor sit amet...",
+         "src": "./assets/videos/ship-placeholder.mp4"
+       },
+     {
+         "type": "image",
+         "title": "Lorem ipsum image",
+         "src": "./assets/images/placeholderLorem.jpg"
+       },
+     {
+         "type": "video",
+         "title": "Placeholder video",
+         "description": "This is a sample video, posted here using local source path",
+         "src": "./assets/videos/placeholder.mp4"
+       },
+     {
+         "type": "video",
+         "title": "Placeholder YouTube video",
+         "description": "This is a sample video, posted here using YouTube embed link",
+         "src": "https://www.youtube.com/embed/u31qwQUeGuM"
+       },
+     {
+         "type": "image",
+         "title": "Placeholder Image, local path",
+         "src": "./assets/images/placeholder.jpg"
+       },
+     {
+         "type": "image",
+         "title": "Placeholder Image, embed via link",
+         "src": "https://pictures-api.migra.ml/wwwroot/pictures/placehold-img1.jpg"
+       }
+   ]
