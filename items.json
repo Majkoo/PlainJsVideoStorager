@@ -47,8 +47,8 @@
   },
   {
     "type": "video",
-    "title": "Jakiś statek płynie 2",
+    "title": "coś z jutuba",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officiis sed totam. Consequatur error, exercitationem ipsa, iure non voluptatem voluptates voluptatum.",
-    "src": "./assets/videos/ship-placeholder.mp4"
+    "src": "https://www.youtube.com/embed/tgbNymZ7vqY"
   }
 ]

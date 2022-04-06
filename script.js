@@ -18,9 +18,7 @@ function writeVidCard(vid) {
     return`
     <div class="card">
         <h5 class="card-title my-2 text-center">${vid.title}</h5>
-        <video class="video" width="100%" height="100%" controls>
-            <source src="${vid.src}" type="video/mp4">
-        </video>
+            <iframe src="${vid.src}?autoplay=0&mute=0" width="100%"> </iframe>
         <div class="card-body">
             <p class="card-text">${vid.description}</p>
         </div>

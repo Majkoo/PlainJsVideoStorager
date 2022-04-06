@@ -7,6 +7,9 @@ a {
 a:hover {
     color: #d3d3d3;
 }
+iframe {
+    aspect-ratio: 16/9;
+}
 
 #navbar-title {
     cursor: pointer;
