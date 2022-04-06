@@ -118,4 +118,5 @@
 > ### And our site now looks like this:
 > ![Video holder screenshot example 2](https://pictures-api.migra.ml/wwwroot/pictures/video-holder-ss-ex2.png)
 
-Thank you, that's all. Enjoy using the site.
+>Live version of this app is running here: [https://video-holder.migra.ml](https://video-holder.migra.ml) <br>
+>Thank you, that's all. Enjoy using the site.
