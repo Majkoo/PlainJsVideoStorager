@@ -12,7 +12,7 @@
 > * If you want to embed videos from ex. YouTube, you need to adjust `settings.js`.
  
 > ## Setting things up
-> * Copy the source code from `https://github.com/Majkoo/PlainJsVideoStorager` and host it on any HTTP server, such as nginx or apache. Local ones, like http-server are fine as well.
+> * Copy the source code from `https://github.com/Majkoo/PlainJsVideoStorager` and host it on any HTTP server, such as nginx or apache.
 > * You should set `appOrigin` in `settings.js` to origin where the app is hosted. <br>
 >```javascript
 >// For example, we can set it up like this:
