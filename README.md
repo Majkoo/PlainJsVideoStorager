@@ -1,18 +1,18 @@
 ---
-#Video-holder
+# Video-holder
 ### Plain JavaScript one-page web app designed for storing notes and videos
 
 ![Video holder screenshot](https://pictures-api.migra.ml/wwwroot/pictures/video-holder-ss.png)
 ---
 
-> ##**What should I know before I host this app?**
+> ## What should I know before I host this app?
 > * Only **you** as admin can post things on this app.
 > * There is **no admin panel**, you have to use `items.json` to manage content.
 > * You can post items either via local path, or embed it on a site via link.
 > * If you want to embed videos from ex. YouTube, you need to adjust `settings.js`.
  
-> ##**Setting things up**
-> * Copy source code from `https://github.com/Majkoo/PlainJsVideoStorager` and host it on any HTTP server, such as nginx or apache. Local ones, like http-server are fine as well.
+> ## Setting things up
+> * Copy the source code from `https://github.com/Majkoo/PlainJsVideoStorager` and host it on any HTTP server, such as nginx or apache. Local ones, like http-server are fine as well.
 > * You should set `appOrigin` in `settings.js` to origin where the app is hosted. <br>
 >```javascript
 >// For example, we can set it up like this:
@@ -22,9 +22,9 @@
 >```
 > * Done! Now you can run `index.html` on any browser, the app should work fine.
 
-> ##**How to post an image or a video on this site?**
+> ## How to post an image or a video on this site?
 > * First, go to root app directory, and open items.json
-> ###Let's assume that this is our JSON file:
+> ### Let's assume that this is our JSON file:
 > ```json
 > [
 >   {
@@ -40,13 +40,13 @@
 >   }
 > ]
 > ```
-> ###Then this is how our site should look like:
+> ### Then this is how our site should look like:
 > ![Video holder screenshot example 1](https://pictures-api.migra.ml/wwwroot/pictures/video-holder-ss-ex1.png)
-> ###Posting an item:
+> ### Posting an item:
 > * To post an item, add another JSON object to the array. 
 > * **Important:** Valid values for `"type"` are only `"video"` and `"image"`.
 > * If it's a file, you should put it in `./assets/images` or `./assets/videos` directory.
-> ###Examples:
+> ### Examples:
 > ```json
 > {
 >   "type": "video",
@@ -77,7 +77,7 @@
 >   "src": "https://pictures-api.migra.ml/wwwroot/pictures/placehold-img1.jpg"
 > }
 > ```
-> ###So, after adding these 4 items, our JSON should look like this:
+> ### So, after adding these 4 items, our JSON should look like this:
 > ```json
 > [
 >   {
@@ -115,7 +115,7 @@
 >   }
 > ]
 > ```
-> ###And our site now looks like this:
+> ### And our site now looks like this:
 > ![Video holder screenshot example 2](https://pictures-api.migra.ml/wwwroot/pictures/video-holder-ss-ex2.png)
 
 Thank you, that's all. Enjoy using the site.
