@@ -17,7 +17,7 @@
 > ## Setting things up
 > * Copy the source code from `https://github.com/Majkoo/Video-Holder` and host it on any HTTP server, such as nginx or apache.
 > * You should set `appOrigin` in `./assets/app-settings/settings.json` to origin where the app is hosted. <br>
->```json
+>```javascript
 >// For example, we can set it up like this:
 >    { 
 >        "appOrigin": "https://migra.ml"
