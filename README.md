@@ -2,6 +2,8 @@
 # Video-holder
 ### Angular one-page web app designed for storing notes and videos
 
+This repo contains compiled code. If you want to look at the source code, visit [https://github.com/Majkoo/AngularVideoHolder](https://github.com/Majkoo/AngularVideoHolder).
+
 ![Video holder screenshot](https://pictures-api.migra.ml/wwwroot/pictures/video-holder-ss.png)
 ---
 
